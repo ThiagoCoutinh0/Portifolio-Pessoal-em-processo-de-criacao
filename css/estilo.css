@@ -1,0 +1,14 @@
+#layout{
+    background-color: rgb(57, 31, 84);
+    padding-bottom: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    margin-top: 20px;
+    clear: both;
+}
+ 
