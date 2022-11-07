@@ -22,10 +22,31 @@ body{
   
     float: right;
     padding-bottom: 100px;
-    margin-top: -80px;
+    margin-top: -70px;
     margin-right: 100px;
 }
 
 a{
     text-decoration: none;
+}
+
+#nom {
+    padding-top: 100px;
+    margin-top: 200px;
+}
+
+#imgt {
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacao{
+    from{
+        margin-bottom: 1%;
+    }
+    to{
+        margin-top: 1%;
+    }
 }
