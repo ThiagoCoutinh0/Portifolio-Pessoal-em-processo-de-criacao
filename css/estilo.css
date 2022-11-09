@@ -32,8 +32,9 @@ nav.navbar-transparente {
 }*/
 
 body{
-    background-image: url(gal.jpg);
-    background-color: #9bf0e1;
+    background: url(imagem/gal.jpg);
+}
+
 
 	/*background: url(imagem/capasite.jpg),
 				url(../imagens/ruido.png),
