@@ -1,3 +1,23 @@
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+#home{
+    font-size: larger;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+body{
+    margin: 0;
+    /* font-family: Helvetica,Arial,sans-serif; */
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+
 /* Barra de navegação
 -----------------------------*/
 nav.navbar-transparente {
@@ -31,8 +51,107 @@ nav.navbar-transparente {
 	overflow-x: hidden;
 }*/
 
-body{
-    background: url(imagem/gal.jpg);
+
+#divimagem{
+    width: 100vw; 
+    height: 100vh;
+    background: url(../imagem/capa.jpg);
+    background-size: cover;
+}
+
+/* Capa
+-----------------------------*/
+.capa {
+	text-align: center;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+/* Estrutura conteúdos
+-----------------------------*/
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	colr: #7c25f8;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+/* animaçao */
+
+#imgt {
+    animation-name: animaca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all 1s;
+}
+
+@keyframes animaca{
+    from{
+        margin-bottom: 1%;
+    }
+    to{
+        margin-top: 1%;
+    }
 }
 
 
